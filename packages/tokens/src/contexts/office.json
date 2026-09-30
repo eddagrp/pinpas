@@ -1,0 +1,61 @@
+{
+  "$description": "Ofis bağlamı: masaüstü, fare/klavye, yoğun veri. Firma paneli ve sipariş dağıtım ekranı bunu kullanır. Anahtarlar field.json ile birebir aynı olmalı.",
+  "size": {
+    "$type": "dimension",
+    "touch-min": {
+      "$value": 32
+    },
+    "control-height": {
+      "$value": 40
+    },
+    "icon": {
+      "$value": 20
+    }
+  },
+  "font": {
+    "size": {
+      "$type": "dimension",
+      "label": {
+        "$value": "{font.size.12}"
+      },
+      "body": {
+        "$value": "{font.size.14}"
+      },
+      "title": {
+        "$value": "{font.size.20}"
+      },
+      "display": {
+        "$value": "{font.size.28}"
+      }
+    }
+  },
+  "space": {
+    "$type": "dimension",
+    "screen-inset": {
+      "$value": "{space.6}"
+    },
+    "control-gap": {
+      "$value": "{space.2}"
+    }
+  },
+  "border": {
+    "$type": "dimension",
+    "control-width": {
+      "$value": 1
+    }
+  },
+  "color": {
+    "$type": "color",
+    "text": {
+      "secondary": {
+        "$value": "{color.neutral.600}"
+      }
+    },
+    "border": {
+      "control": {
+        "$value": "{color.neutral.500}",
+        "$description": "WCAG metin dışı öğe eşiği 3:1; 300 ve 400 bunu geçmiyor."
+      }
+    }
+  }
+}

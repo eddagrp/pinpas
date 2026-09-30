@@ -1,0 +1,14 @@
+{
+  "name": "pinpas",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "tokens:verify": "npm run verify -w @pinpas/tokens",
+    "tokens:build": "npm run build -w @pinpas/tokens"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "$description": "Tüm ürünlerde ortak anlam katmanı. Bileşenler yalnızca bu katmana (ve context katmanına) bağlanır; primitive'lere doğrudan bağlanmaz.",
+  "color": {
+    "$type": "color",
+    "bg": {
+      "canvas": {
+        "$value": "{color.neutral.0}"
+      },
+      "surface": {
+        "$value": "{color.neutral.0}"
+      },
+      "surface-muted": {
+        "$value": "{color.neutral.50}"
+      },
+      "inverse": {
+        "$value": "{color.neutral.900}"
+      }
+    },
+    "text": {
+      "primary": {
+        "$value": "{color.neutral.900}"
+      },
+      "disabled": {
+        "$value": "{color.neutral.400}"
+      },
+      "inverse": {
+        "$value": "{color.neutral.0}"
+      },
+      "link": {
+        "$value": "{brand.primary}"
+      }
+    },
+    "border": {
+      "default": {
+        "$value": "{color.neutral.200}"
+      },
+      "focus": {
+        "$value": "{brand.accent}"
+      }
+    },
+    "action": {
+      "primary": {
+        "bg": {
+          "$value": "{brand.primary}"
+        },
+        "bg-pressed": {
+          "$value": "{brand.primary-pressed}"
+        },
+        "fg": {
+          "$value": "{brand.on-primary}"
+        }
+      },
+      "secondary": {
+        "bg": {
+          "$value": "{color.neutral.0}"
+        },
+        "bg-pressed": {
+          "$value": "{brand.primary-subtle}"
+        },
+        "fg": {
+          "$value": "{brand.primary}"
+        },
+        "border": {
+          "$value": "{brand.primary}"
+        }
+      },
+      "danger": {
+        "bg": {
+          "$value": "{color.red.700}"
+        },
+        "fg": {
+          "$value": "{color.neutral.0}"
+        }
+      }
+    },
+    "status": {
+      "success": {
+        "fg": {
+          "$value": "{color.green.800}"
+        },
+        "bg": {
+          "$value": "{color.green.50}"
+        }
+      },
+      "warning": {
+        "fg": {
+          "$value": "{color.amber.800}"
+        },
+        "bg": {
+          "$value": "{color.amber.50}"
+        }
+      },
+      "danger": {
+        "fg": {
+          "$value": "{color.red.700}"
+        },
+        "bg": {
+          "$value": "{color.red.50}"
+        }
+      },
+      "info": {
+        "fg": {
+          "$value": "{color.blue.700}"
+        },
+        "bg": {
+          "$value": "{color.blue.50}"
+        }
+      }
+    }
+  }
+}

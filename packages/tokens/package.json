@@ -1,0 +1,17 @@
+{
+  "name": "@pinpas/tokens",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Çekirdek design system token'ları + ürün temaları + saha/ofis bağlamları.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "verify": "node scripts/verify.mjs",
+    "figma:push-script": "node scripts/figma-push-script.mjs",
+    "figma:apply-export": "node scripts/figma-apply-export.mjs"
+  },
+  "exports": {
+    "./*.css": "./dist/*.css",
+    "./*": "./dist/*.ts"
+  }
+}

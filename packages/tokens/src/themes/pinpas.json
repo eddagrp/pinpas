@@ -1,0 +1,43 @@
+{
+  "$description": "Pinpas marka teması. Ürün başına değişen tek katman bu: renk, marka, yazı tipi. Yeni ürün = bu dosyanın bir kopyası (ör. themes/finbee.json).",
+  "brand": {
+    "$type": "color",
+    "primary": {
+      "$value": "{color.blue.700}",
+      "$description": "Ana aksiyon rengi. Saha bağlamındaki AAA (7:1) eşiği için 600 yerine 700."
+    },
+    "primary-pressed": {
+      "$value": "{color.blue.800}"
+    },
+    "primary-subtle": {
+      "$value": "{color.blue.50}"
+    },
+    "on-primary": {
+      "$value": "{color.neutral.0}"
+    },
+    "accent": {
+      "$value": "{color.amber.500}",
+      "$description": "Dikkat/odak rengi. Üstüne yalnızca koyu metin."
+    },
+    "on-accent": {
+      "$value": "{color.neutral.900}"
+    }
+  },
+  "font": {
+    "family": {
+      "$type": "fontFamily",
+      "brand": {
+        "$value": "Inter"
+      }
+    }
+  },
+  "radius": {
+    "$type": "dimension",
+    "control": {
+      "$value": "{radius.lg}"
+    },
+    "card": {
+      "$value": "{radius.xl}"
+    }
+  }
+}

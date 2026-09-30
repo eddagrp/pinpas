@@ -1,0 +1,64 @@
+{
+  "$description": "Saha bağlamı: sokakta, eldivenle, güneş altında, tek elle. Kurye uygulaması bunu kullanır. Değerler saha pilotunda doğrulanacak varsayımlardır (docs/field-hypotheses.md).",
+  "size": {
+    "$type": "dimension",
+    "touch-min": {
+      "$value": 56,
+      "$description": "Eldivenli parmak için en küçük dokunma alanı. WCAG AA 24, Material 48; saha için 56."
+    },
+    "control-height": {
+      "$value": 64
+    },
+    "icon": {
+      "$value": 28
+    }
+  },
+  "font": {
+    "size": {
+      "$type": "dimension",
+      "label": {
+        "$value": "{font.size.16}"
+      },
+      "body": {
+        "$value": "{font.size.18}"
+      },
+      "title": {
+        "$value": "{font.size.24}"
+      },
+      "display": {
+        "$value": "{font.size.40}",
+        "$description": "Teslimat kodu, sayaç gibi tek bakışta okunması gereken değerler."
+      }
+    }
+  },
+  "space": {
+    "$type": "dimension",
+    "screen-inset": {
+      "$value": "{space.4}"
+    },
+    "control-gap": {
+      "$value": "{space.3}"
+    }
+  },
+  "border": {
+    "$type": "dimension",
+    "control-width": {
+      "$value": 2
+    }
+  },
+  "color": {
+    "$type": "color",
+    "text": {
+      "secondary": {
+        "$value": "{color.neutral.700}",
+        "$description": "Güneşte okunurluk için ofisten bir kademe koyu."
+      }
+    },
+    "border": {
+      "control": {
+        "$value": "{color.neutral.600}",
+        "$description": "Kontrol kenarlığı ofisten bir kademe koyu ve 2px."
+      }
+    }
+  }
+}
